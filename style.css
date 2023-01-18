@@ -79,3 +79,22 @@ button {
     width: 200px;
     margin-bottom: 50px;
 }
+
+h2 {
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.partthree {
+    padding: 50px;
+}
+
+.quote {
+    max-width: 500px;
+    font-style: italic;
+}
+
+.quoteauthor {
+    text-align: right;
+}
