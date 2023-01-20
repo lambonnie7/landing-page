@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: sans-serif;
     align-items: center;
+    justify-content: center;
     margin: 0px;
 }
 
@@ -72,7 +73,7 @@ button {
 }
 
 .rounded {
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .picture {
@@ -87,14 +88,56 @@ h2 {
 }
 
 .partthree {
-    padding: 50px;
+    padding: 50px 400px;
+    background-color: #E5E7EB;
 }
 
 .quote {
-    max-width: 500px;
     font-style: italic;
+    font-size: 36px;
 }
 
 .quoteauthor {
     text-align: right;
+}
+
+.partfour {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 200px;
+    margin: 40px 60px;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.call {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.signup {
+    color: #E5E7EB;
+    border: #F9FAF8;
+}
+
+.callsignup {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupbutton {
+    border: 2px solid #F9FAF8;
+}
+
+.partfive {
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    color: #F9FAF8;
+    padding: 20px;
 }
